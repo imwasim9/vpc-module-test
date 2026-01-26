@@ -28,3 +28,17 @@ variable "vpc_tags"{
         DontDelete = "true"
     }
 }
+
+# variable "eip_tags"{
+#     default = {
+#         Purpose = "aws_vpc_module_test"
+#         DontDelete = "true"
+#     }
+# }
+
+# variable "nat_gateway_tags"{
+#     default = {
+#         Purpose = "aws_vpc_module_test"
+#         DontDelete = "true"
+#     }
+# }
