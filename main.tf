@@ -1,6 +1,6 @@
 module "vpc"{
-    source = "../terraform-vpc-module"
-    # source = "git::https://github.com/imwasim9/terraform-vpc-module.git?ref=main"
+    # source = "../terraform-vpc-module"
+    source = "git::https://github.com/imwasim9/terraform-vpc-module.git?ref=main"
     # vpc_cidr = "10.0.0.0/16"
     # project_name = "roboshop"
     # environment = "dev"
